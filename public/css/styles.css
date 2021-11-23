@@ -1,0 +1,400 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    font-size: 24px;
+}
+
+div.top-header{
+    padding: 5%;
+}
+header{
+    background-color: #EAC926;
+    padding-bottom: 20px;
+}
+
+nav{
+    display: none;
+}
+
+header div.logo{
+    width: 50%;
+}
+header div.logo{
+    padding: 10px;
+}
+
+header ul li {
+    list-style-type:none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    font-size: 17px;
+    padding: 5px 0;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666666;
+    padding: 4px;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 4%;
+}
+header p{
+    margin: 20px 0;
+}
+
+header div.top-header h2{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+
+
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 20px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 10px 30px 10px;
+}
+
+
+article div.main-article{
+    width: 100%;
+}
+.price{
+    font-size: 18px;
+}
+.discount,.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3, .description{
+    color: #666;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+section .products{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main{
+    width: 90%;
+    margin-left: 5%;
+}
+main section article{
+    background-color: #fff;
+    margin-bottom: 10px;
+    border: solid 1px #ebebeb;
+}
+
+
+main section article img{
+    width: 100%;
+}
+
+main section article i{
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute ;
+    right: 20px ;
+    top: -40px ;
+}
+
+article div.main-article{
+    border-top: solid 1px #ebebeb;
+    position: relative;
+    margin-bottom: 15px;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding: 15px;
+}
+
+
+.contexto{
+    display: flex;
+    padding: 10px;
+}
+.main-article p.price{
+    width: 30%;
+    font-size: 14px;
+    margin-right: 2px;
+    
+}
+.main-article p.discount{
+    width: 70%;
+    font-size: 13px;
+    margin-left: 4px;
+}
+
+.main-article h4.description{
+    display: inline;
+    margin-left: 10px;
+    font-size:18px;
+    height: 0%;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+main section article i,
+.discount{
+    color:#39b54a;
+}
+
+/*Formulario de Registro*/
+section.Formulario-Registro{
+    margin-top: 30px;
+}
+
+section.Formulario-Registro form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin:auto;
+}
+
+section.Formulario-Registro form input{
+    margin-bottom: 20px;
+    height: 35px;
+    border: none;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 200;
+}
+ #fechaN{
+    font-size: 18px;
+    margin: 10px 0px;
+    color: #000;
+    font-weight: bold;
+}
+.control{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.control label{
+    font-size: 18px;
+    font-weight: bold;
+    position:relative;
+    margin: 15px 0px;
+}
+.option{
+    display: flex;
+}
+.option p{
+    margin-top: 7px;
+    padding-left: 10px;
+}
+
+.botton{
+    width: 80%;
+    color:white;
+    margin:auto;
+    
+}
+.botton input{
+    background-color: #b3c0d3;
+    border-radius: 10px;
+    width: 100%;
+    color:white;
+    transition: all 480ms;
+}
+
+.botton input:hover{
+    background-color:#0022AA;
+}
+
+
+
+/*ESTA PARTE DEL FOOTER*/
+footer{
+    margin: 10px 5px 2px;
+    background-color: #FFF;
+}
+
+ div.eren-footer {
+     text-align: center;
+ }
+article i{
+    font-size: 2em;
+    border-radius: 5px;
+    color:#0044AA;
+    margin: 25px 0px 10px 0px;
+    padding-top: 30px;
+}
+div.eren-footer p{
+    margin: 0px 30px;
+}
+div.eren-footer p.derech{
+    text-align: justify;
+    padding-left: 10px;
+    margin: 30px 0px 2px 5px;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 361px){
+    main section article .description{
+    display: none;
+    }
+    .products{
+        justify-content: center;
+    }
+    
+}
+
+
+
+@media (min-width: 720px){
+    main section article {
+        width: 45%;
+    }
+    main section article i{
+        transition:trasform 1s;
+    }
+    main section article i:hover{
+        transform: rotate(-90deg);
+    }
+    .main-article h4.description{
+        display: none;
+        transition: height 5ms;
+    }
+    .producto:hover .main-article h4.description{
+        height: 100%;
+        display: block;
+    }
+    .producto{
+        transition: box-shadow 1s;
+    }
+    .producto:hover{
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+        
+    }
+    nav{
+        display: block;
+        margin-left: 15px;
+    }
+    div.burger-menu i{
+        display: none;
+    }
+    div.top-header{
+        display: flex;
+        padding: 2%;
+        justify-content: space-between;
+        align-items: center;
+    }
+header div.logo{
+    max-width: 180px;
+}
+    header div.top-header h2{
+        text-align: right;
+        width: fit-content;
+        height: fit-content;
+        margin-top: 10px;
+    }
+    nav.menu-oculto{
+        display: flex;
+        justify-content: space-between;
+    }
+    header ul {
+        display: flex;
+        
+    }
+    header ul li a{
+        margin: 0 4px;
+        font-size: 12px;
+    }
+    .products{
+        justify-content: space-between;
+    }  
+    article img{
+        display: inline-block;
+        width: 300px;
+    }
+    .contexto{
+        position: relative;
+    }
+    .main-article p.price{
+        width: 30%;
+        font-size: 17px;
+        margin-right: 2px;
+        
+    }
+    .main-article p.discount{
+        width: 70%;
+        font-size: 15px;
+        margin-left: 4px;
+    }
+    
+
+    section.Formulario-Registro form{
+        width:60%
+    }
+    .control label{
+        font-size: 25px;
+    }
+    section.Formulario-Registro form input{
+        border-radius: 10px;
+        height: 55px;
+        font-size: 25px;
+    }
+        
+}
+
+
+@media (min-width: 1200px){
+    .eren-footer,.top-header, .menu-oculto, .last-visit,.offers {
+        max-width: 1200px;
+        margin: auto;
+    }
+    main section article {
+        width: 23%;
+    }
+    header ul li a{
+        font-size: 18px;
+    }
+    .eren-footer section{
+        display: flex;
+        justify-content:space-around;
+    }
+    footer article i:hover{
+        color:#EAC926;
+        transition: color 1s;
+    }
+}
